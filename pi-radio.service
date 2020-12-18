@@ -1,0 +1,17 @@
+[Unit]
+Description=Python Pi-Radio
+After=mpd.service
+
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/pi-radio.py
+Restart=always
+RestartSec=1
+StartLimitBurst=5
+StartLimitIntervalSec=10
+StartLimitAction=reboot
+
+[Install]
+WantedBy=multi-user.target
+
