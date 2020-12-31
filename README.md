@@ -7,4 +7,4 @@ The started point was BareBone Pi Radio of Giles Booth.
 Thanks Mr. Booth!!
 
 
-Please check our Wiki
+Please check our <a href="https://github.com/vwpolo/another-pi-radio/wiki">Wiki</a>
